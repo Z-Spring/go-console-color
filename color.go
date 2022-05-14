@@ -13,6 +13,7 @@ const (
 	blue   = "\033[97;44m"
 	cyan   = "\033[97;46m"
 	purple = "\033[97;45m"
+	gray   = "\033[97;47m"
 	reset  = "\033[0m"
 )
 
@@ -24,6 +25,7 @@ const (
 	Yellow string = "Yellow"
 	White  string = "White"
 	Purple string = "Purple"
+	Gray   string = "Gray"
 )
 
 // ConsoleColor display console's text  background color
@@ -45,6 +47,8 @@ func ConsoleColor(inputColor string, target string) string {
 		return yellow + suffix
 	case Purple:
 		return purple + suffix
+	case Gray:
+		return gray + suffix
 	default:
 		return reset + target
 	}
