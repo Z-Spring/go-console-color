@@ -6,12 +6,14 @@ you can use it to add background color to your console text
 go get -u github.com/z-spring/go-console-color
 ```
 🧨 Second
+
 you can add alias with this module
 ```go
 import color "github.com/z-spring/go-console-color"
 ```
 
-🎭 Third
+🎭 Third 
+
 Just use ConsoleColor(inputColor string,target string) to output color
 
 Example:
