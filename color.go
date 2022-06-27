@@ -1,7 +1,7 @@
 package go_console_color
 
 // define output color
-// or if you  just want to  display the text color
+// or if you just want to display the text color
 // just delete 97; || 90;
 // example: green = "\033[42m"
 // example: white  = "\033[47m"
