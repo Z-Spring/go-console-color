@@ -1,6 +1,16 @@
 # go-console-color
 you can use it to add background color to your console text
 
+colors which you can choose:
+* green
+* red 
+* cyan 
+* blue 
+* yellow 
+* white
+* purple 
+* gray
+
 🎈 First
 ```shell
 go get -u github.com/z-spring/go-console-color
