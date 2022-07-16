@@ -24,11 +24,17 @@ import color "github.com/z-spring/go-console-color"
 
 🎭 Third 
 
-Just use ConsoleColor(inputColor string,target string) to output color
+Just use NewColor().String() or Int64 or Float64 to output text with bacolor
 
 Example:
 ```go
-s:=color.ConsoleColor(color.Blue,"hello there!") 
+c := NewColor(color.Red)
+text := c.String("hello world!") 
+fmt.Println(text)
 ```
+output:
+
+![img.png](img.png)
+
 That's all~
 
